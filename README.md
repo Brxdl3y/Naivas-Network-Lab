@@ -3,7 +3,7 @@
 A Deliberate, Redundant, and Production‑Minded Campus LAN Design
 
 
-Executive Summary
+**Executive Summary**
 
 This project models a realistic enterprise campus network for a supermarket environment, inspired by Naivas’ operational layout. The design goes beyond basic connectivity to emphasize determinism, resilience, and operational clarity — the qualities expected in production networks managed by NOC teams and enterprise engineers.
 
