@@ -23,10 +23,11 @@ This network is built on three guiding principles:
 
 **Topology Overview**
 
-Logical Layers
+**Logical Layers**
 
 Layer	Devices	Responsibility
 Access	2960‑24TT (x2)	Endpoint connectivity, VLAN membership
+
 Distribution	3560‑24PS, 2950T‑24	STP control, aggregation, Layer‑3 boundary
 
 **Device Roles**
