@@ -26,9 +26,9 @@ This network is built on three guiding principles:
 **Logical Layers**
 
 Layer	Devices	Responsibility
-Access	2960‑24TT (x2)	Endpoint connectivity, VLAN membership
+**Access layer**	[2960‑24TT (x2)]	Endpoint connectivity, VLAN membership
 
-Distribution	3560‑24PS, 2950T‑24	STP control, aggregation, Layer‑3 boundary
+**Distribution layer**	[3560‑24PS, 2950T‑24]	STP control, aggregation, Layer‑3 boundary
 
 **Device Roles**
 
