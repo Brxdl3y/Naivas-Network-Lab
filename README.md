@@ -32,14 +32,13 @@ This network is built on three guiding principles:
 
 **Device Roles**
 
-Device	Model	Role
+**Distribution‑SW0** (3560‑24PS) -	Primary Distribution & Routing Anchor
 
-**Distribution‑SW0**	3560‑24PS	Primary Distribution & Routing Anchor
+**Distribution‑SW1**	(2950T‑24) - Secondary Distribution & STP Backup
 
-**Distribution‑SW1**	2950T‑24	Secondary Distribution & STP Backup
+**Access‑SW1** (2960‑24TT) - Access Layer
 
-Access‑SW1	2960‑24TT	Access Layer
-Access‑SW2	2960‑24TT	Access Layer
+**Access‑SW2**	(2960‑24TT) -	Access Layer
 
 
 **Business‑Driven VLAN Segmentation**
