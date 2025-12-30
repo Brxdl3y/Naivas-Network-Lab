@@ -46,10 +46,13 @@ This network is built on three guiding principles:
 Departments are mapped directly to network boundaries, reflecting how retail operations scale and troubleshoot in practice.
 
 VLAN	Department	Subnet	Default Gateway
-10	Warehouse	57.16.21.0/24	57.16.21.1
-20	Bakery & Grocery	20.20.3.0/24	20.20.3.1
-30	Server Room	137.10.12.0/24	137.10.12.1
-40	Cashiers (POS)	150.14.34.0/24	150.14.34.1
+VLAN 10	- Warehouse	- 57.16.21.0/24	 [57.16.21.1]
+
+VLAN 20 -	Bakery & Grocery - 20.20.3.0/24	 [20.20.3.1]
+
+VLAN 30 - Server Room	- 137.10.12.0/24	[137.10.12.1]
+
+VLAN 40 -	Cashiers (POS)	- 150.14.34.0/24	 [150.14.34.1]
 
 **Design Intent**: Segmentation limits broadcast domains, isolates faults, and enables policy control as the network grows.
 
