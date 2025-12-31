@@ -53,14 +53,15 @@ VLAN  	Department  	Subnet  	Default Gateway
 
 **VLAN 30** - Server Room	- 137.10.12.0/24	[137.10.12.1]
 
-VLAN 40 -	Cashiers (POS)	- 150.14.34.0/24	 [150.14.34.1]
+**VLAN 40** -	Cashiers (POS)	- 150.14.34.0/24	 [150.14.34.1]
+
 
 **Design Intent**: Segmentation limits broadcast domains, isolates faults, and enables policy control as the network grows.
 
 
 **Spanning Tree Strategy (Rapid PVST+)**
 
-Why STP Still Matters
+**Why STP Still Matters**
 
 In redundant Layer‑2 designs, loops are not a theoretical risk — they are inevitable. STP is therefore treated not as a default feature, but as a controlled system with deliberate root placement.
 
@@ -79,11 +80,11 @@ All SVIs are intentionally centralized on Distribution‑SW0, establishing a sin
 
 This avoids:
 
-Multiple competing default gateways
+# Multiple competing default gateways
 
-Black‑holed traffic due to misaligned STP paths
+# Black‑holed traffic due to misaligned STP paths
 
-Unclear fault domains during outages
+# Unclear fault domains during outages
 
 
 **Closing Statement**
