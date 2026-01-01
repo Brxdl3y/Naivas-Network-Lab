@@ -45,7 +45,7 @@ This network is built on three guiding principles:
 
 Departments are mapped directly to network boundaries, reflecting how retail operations scale and troubleshoot in practice.
 
-VLAN  	Department  	Subnet  	Default Gateway
+VLAN  	 Department     	Subnet  	 Default Gateway
 
 **VLAN 10**	- Warehouse	- 57.16.21.0/24	 [57.16.21.1]
 
@@ -93,7 +93,7 @@ This project reflects how I approach networking: with intent, restraint, and res
 
 My goal is to contribute to environments where reliability is not a hope, but a design outcome.
 
-AUTHOR - BRADLEY GIOVANNI  NETWORK ENGINEER  |  NETWORK ADMINISTRATOR  | NOC TECHNICIAN
+AUTHOR - **BRADLEY GIOVANNI**  NETWORK ENGINEER  |  NETWORK ADMINISTRATOR  | NOC TECHNICIAN
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/bradley-giovanniii293)
 ---
