@@ -80,11 +80,11 @@ All SVIs are intentionally centralized on Distribution‑SW0, establishing a sin
 
 This avoids:
 
-# Multiple competing default gateways
+- Multiple competing default gateways
 
-# Black‑holed traffic due to misaligned STP paths
+- Black‑holed traffic due to misaligned STP paths
 
-# Unclear fault domains during outages
+- Unclear fault domains during outages
 
 
 **Closing Statement**
