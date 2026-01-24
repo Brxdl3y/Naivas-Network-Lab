@@ -63,7 +63,7 @@ VLAN  	 Department     	Subnet  	 Default Gateway
 
 **Why STP Still Matters**
 
-In redundant Layer‑2 designs, loops are not a theoretical risk — they are inevitable. STP is therefore treated not as a default feature, but as a controlled system with deliberate root placement.
+In redundant Layer‑2 designs, loops are not a theoretical risk, they are inevitable. STP is therefore treated not as a default feature, but as a controlled system with deliberate root placement.
 
 **Root Bridge Placement**
 
