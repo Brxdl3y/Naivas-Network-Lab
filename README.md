@@ -14,11 +14,11 @@ Rather than treating configuration as an end in itself, this lab demonstrates in
 
 This network is built on three guiding principles:
 
-**Role Separation** – Access switches forward; distribution switches decide.
+•**Role Separation** – Access switches forward; distribution switches decide.
 
-**Predictability over cleverness** – One authoritative routing point, deterministic STP roots.
+•**Predictability over cleverness** – One authoritative routing point, deterministic STP roots.
 
-**Failure‑aware design** – Redundancy exists to be controlled, not to surprise operators.  
+•**Failure‑aware design** – Redundancy exists to be controlled, not to surprise operators.  
 
 
 📌**Topology Overview**
