@@ -3,14 +3,14 @@
 A Deliberate, Redundant, and Production‑Minded Campus LAN Design
 
 
-**Executive Summary**
+📌**Executive Summary**
 
 This project models a realistic enterprise campus network for a supermarket environment, inspired by Naivas’ operational layout. The design goes beyond basic connectivity to emphasize determinism, resilience, and operational clarity — the qualities expected in production networks managed by NOC teams and enterprise engineers.
 
 Rather than treating configuration as an end in itself, this lab demonstrates intentional design choices: where **routing** lives, how **loops** are controlled, why **redundancy** is structured the way it is, and how failure is anticipated rather than feared.
 
 
-**Design Philosophy**
+📌**Design Philosophy**
 
 This network is built on three guiding principles:
 
@@ -21,7 +21,7 @@ This network is built on three guiding principles:
 **Failure‑aware design** – Redundancy exists to be controlled, not to surprise operators.  
 
 
-**Topology Overview**
+📌**Topology Overview**
 
 **Logical Layers**
 
@@ -30,7 +30,7 @@ This network is built on three guiding principles:
 **Distribution layer**	[3560‑24PS, 2950T‑24]	STP control, aggregation, Layer‑3 boundary
 
 
-**Device Roles**
+📌**Device Roles**
 
 **Distribution‑SW0** (3560‑24PS) -	Primary Distribution & Routing Anchor
 
@@ -41,7 +41,7 @@ This network is built on three guiding principles:
 **Access‑SW2**	(2960‑24TT) -	Access Layer
 
 
-**Business‑Driven VLAN Segmentation**
+📌**Business‑Driven VLAN Segmentation**
 
 Departments are mapped directly to network boundaries, reflecting how retail operations scale and troubleshoot in practice.
 
@@ -87,7 +87,7 @@ This avoids:
 - Unclear fault domains during outages
 
 
-**Closing Statement**
+📌**Closing Statement**
 
 This project reflects how I approach networking: with intent, restraint, and respect for operational reality. I am not interested in fragile brilliance — I am interested in networks that survive growth, failure, and human error.
 
